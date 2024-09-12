@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcel Grosdoigt - Conseiller Immobilier en Bretagne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #ffffff; 
+            color: #0056b3; 
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 3px solid #ff0000;  /* Liseré rouge */
+            border-top: 3px solid #0056b3;    /* Liseré bleu */
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #0056b3; /* Liseré bleu pour les sections */
+        }
+        h2, h3 {
+            color: #0056b3; /* Couleur bleue */
+        }
+        .cta {
+            background: #007bff; /* Couleur bleue pour les boutons */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+        }
+        .photo {
+            border: 5px solid #0056b3; /* Bordure bleue */
+            border-radius: 50%; /* Arrondi pour la photo d'identité */
+            max-width: 150px;
+        }
+        .property-image {
+            border: 5px solid #007bff; /* Bordure bleue */
+            border-radius: 8px;
+            max-width: 100%; /* Images s'adaptent à l'écran */
+            margin: 10px 0; /* Marge pour espacer les photos */
+        }
+        .contact-info {
+            font-size: 12px; /* Petit texte pour les informations de contact */
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Marcel Grosdoigt - Votre Conseiller Immobilier en Bretagne</h1>
+    <img src="photo_marcel.jpg" alt="Photo de Marcel Grosdoigt" class="photo"> <!-- Ajouter la photo de Marcel ici -->
+    <div class="contact-info">
+        <p>Téléphone : <a href="tel:+33782632916" style="color: #0056b3;">0782632916</a></p>
+        <p>Email : <a href="mailto:m.grosdoigt@agence.immo" style="color: #0056b3;">m.grosdoigt@agence.immo</a></p>
+    </div>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#evaluation">Évaluation</a>
+        <a href="#retraites">Retraités</a>
+        <a href="#divorces">Divorces</a>
+        <a href="#solutions">Solutions Vente</a>
+        <a href="#temoignages">Témoignages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section id="services">
+    <h2>Nos Services</h2>
+    <p>Je suis là pour vous aider à trouver les meilleures opportunités, que vous soyez acheteur ou vendeur :</p>
+    <ul>
+        <li>Achat de biens immobiliers</li>
+        <li>Vente de biens immobiliers</li>
+        <li>Évaluation immobilière gratuite</li>
+        <li>Conseils en viager</li>
+    </ul>
+    <a href="mailto:m.grosdoigt@agence.immo?subject=Consultation Customer" class="cta">Contactez-moi pour une consultation gratuite</a>
+</section>
+<section id="evaluation">
+    <h2>Évaluation Immobilière</h2>
+    <p>Obtenez une évaluation immobilière gratuite et sans engagement. Je vous fournirai une analyse complète de la valeur de votre bien, en considérant le marché actuel et les spécificités de votre propriété.</p>
+    <a href="mailto:m.grosdoigt@agence.immo?subject=Demande d'évaluation immobilière" class="cta">Demandez votre évaluation gratuite</a>
+</section>
+<section id="retraites">
+    <h2>Améliorez votre retraite avec le viager</h2>
+    <p>Découvrez comment une rente mensuelle peut vous offrir une meilleure qualité de vie tout en conservant votre logement.</p>
+    <p>Obtenez votre consultation gratuite sur le viager :</p>
+    <a href="mailto:m.grosdoigt@agence.immo?subject=Consultation Viager" class="cta">Demandez votre consultation gratuite</a>
+</section>
+<section id="divorces">
+    <h2>Gérez votre bien immobilier en toute confidentialité durant votre divorce</h2>
+    <p>Nous vous accompagnons pour une évaluation rapide et une vente discrète de votre bien immobilier.</p>
+    <p>Obtenez une évaluation gratuite et confidentielle :</p>
+    <a href="mailto:m.grosdoigt@agence.immo?subject=Évaluation Confidentielle" class="cta">Obtenez votre évaluation gratuite</a>
+</section>
+<section id="solutions">
+    <h2>Solutions pour une Vente Difficile</h2>
+    <p>Si vous rencontrez des difficultés pour vendre votre bien immobilier, je suis là pour vous aider. Que vous ayez besoin d'une stratégie différente ou de conseils pour redynamiser la vente, je peux vous proposer des solutions adaptées.</p>
+    <p>Contactez-moi pour discuter des options disponibles :</p>
+    <a href="mailto:m.grosdoigt@agence.immo?subject=Solutions Vente" class="cta">Trouvons ensemble une solution</a>
+</section>
+<section id="temoignages">
+    <h2>Témoignages</h2>
+    <p>"Grâce à Marcel, j'ai trouvé la maison de mes rêves en un temps record !"</p>
+    <p>"La vente de ma maison s'est faite en toute transparence et en toute confiance grâce à Marcel."</p>
+    <a href="#contact" class="cta">Partagez votre expérience</a>
+</section>
+<section id="contact">
+    <h2>Contactez-moi</h2>
+    <p>Je suis à votre disposition pour répondre à toutes vos questions.</p>
+    
+    <h3>Galerie de Biens Immobiliers</h3>
+    <img src="bien1.jpg" alt="Bien Immobilier 1" class="property-image">
+    <img src="bien2.jpg" alt="Bien Immobilier 2" class="property-image">
+    <img src="bien3.jpg" alt="Bien Immobilier 3" class="property-image">
+    
+    <form action="mailto:m.grosdoigt@agence.immo" method="post" enctype="text/plain">
+        <label for="name">Nom :</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+<footer>
+    <p>Suivez-moi sur <a href="https://www.instagram.com/grosdoigtmarcel?igsh=MWpwOHJiczVuemhkbg%3D%3D&utm_source=qr" style="color: #ff6347;">Instagram</a></p>
+    <p>&copy; 2023 Marcel Grosdoigt. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
